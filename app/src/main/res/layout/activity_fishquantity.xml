@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Screen8.Fishquantity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/design1"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/baseline_west_24"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="17dp"
+            android:drawablePadding="15dp"
+            android:text="Fish Quantity"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/cart" />
+
+    </LinearLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageViewProduct"
+                    android:layout_width="match_parent"
+                    android:layout_height="185dp"
+                    android:src="@drawable/fishh2" />
+
+                <TextView
+                    android:id="@+id/textViewProductName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Seer Fish/King Fish/Surmal/Neymeen/Vanjaram"
+                    android:textColor="@color/black"
+                    android:textSize="13dp"
+                    android:layout_marginLeft="10dp"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:id="@+id/textViewProductPrice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="5dp"
+                    android:text="1.5 to 6.6 kg "
+                    android:textSize="15dp"
+                    android:drawableLeft="@drawable/ic_rupee22"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="223dp"
+                android:background="@color/white"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="144dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="Choose your cut"
+                    android:textColor="@color/black"
+                    android:textSize="10dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="140dp"
+                    android:drawableRight="@drawable/selectdown"
+                    android:drawablePadding="3dp"
+                    android:text="Select"
+                    android:textColor="@color/black"
+                    android:textSize="10dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="260dp"
+                android:background="@color/white">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Request Your Quantity"
+                    android:textColor="@color/black"
+                    android:textSize="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:layout_marginTop="272dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="whole:180/500 grams"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#057988"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="360"
+                    android:layout_marginLeft="128dp"
+                    android:textStyle="bold"
+                    android:drawableLeft="@drawable/picsvg_download"
+                    android:textColor="#057988"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="286dp"
+                android:background="@color/white">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Kilogram"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="60dp"
+                    android:textSize="15dp"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Grams"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="105dp"
+                    android:textSize="15dp"
+                    android:textColor="@color/black"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="303dp"
+                android:background="@color/white">
+
+                <Button
+                    android:id="@+id/decreaseButton"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/designbttn"
+                    android:text="-"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="15dp"
+                    android:textSize="15dp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/counterTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2"
+                    android:textStyle="bold"
+                    android:textSize="25dp"
+                    android:layout_marginLeft="15dp"
+                    android:textColor="@color/black"/>
+
+                <Button
+                    android:id="@+id/increaseButton"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/designbttn"
+                    android:text="+"
+                    android:layout_marginLeft="15dp"
+                    android:textSize="15dp"
+                    android:textStyle="bold"/>
+
+
+                <Button
+                    android:id="@+id/decreaseButton2"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/designbttn"
+                    android:text="-"
+                    android:layout_marginLeft="55dp"
+                    android:textSize="15dp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/counterTextView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="100"
+                    android:textStyle="bold"
+                    android:textSize="25dp"
+                    android:layout_marginLeft="15dp"
+                    android:textColor="@color/black"/>
+
+                <Button
+                    android:id="@+id/increaseButton2"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/designbttn"
+                    android:text="+"
+                    android:layout_marginLeft="15dp"
+                    android:textSize="15dp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="340dp"
+    android:orientation="horizontal">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Similar Product"
+        android:textColor="@color/black"
+        android:textSize="10dp"
+        android:layout_marginLeft="15dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/viewmore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View More"
+        android:textColor="#057988"
+        android:textSize="10dp"
+        android:layout_marginLeft="195dp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="355dp"
+                android:orientation="horizontal">
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="160dp"
+                    android:layout_height="140dp"
+                    android:layout_marginLeft="15dp">
+
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="84dp"
+                        android:layout_margin="8dp"
+                        android:background="@drawable/catlagoogle" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginTop="100dp"
+                        android:text="Catla(1kg to 1.9kg)"
+                        android:textColor="@color/black"
+                        android:textSize="10dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="120dp"
+                        android:drawableLeft="@drawable/ic_rupee22"
+                        android:text="199.00/500g"
+                        android:textColor="@color/black"
+                        android:textSize="10dp"
+                        android:textStyle="bold" />
+
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="160dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_height="140dp">
+
+
+                    <ImageView
+                        android:layout_width="136dp"
+                        android:layout_height="84dp"
+                        android:layout_margin="8dp"
+                        android:background="@drawable/mackerelgoole" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="100dp"
+                        android:textSize="10dp"
+                        android:layout_marginLeft="12dp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:text="Indian Mackerel(large)"/>
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="120dp"
+                        android:textSize="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:text="299.00/500g"
+                        android:drawableLeft="@drawable/ic_rupee22"/>
+
+
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="505dp"
+                android:orientation="horizontal">
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="160dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_height="140dp">
+
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="84dp"
+                        android:layout_margin="8dp"
+                        android:background="@drawable/pinkperchgoogle" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="100dp"
+                        android:textSize="10dp"
+                        android:layout_marginLeft="3dp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:text="Pink Perch(180g to 310g)" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="120dp"
+                        android:textSize="10dp"
+                        android:layout_marginLeft="5dp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:text="199.00/500g"
+                        android:drawableLeft="@drawable/ic_rupee22"/>
+
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="160dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_height="140dp">
+
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="84dp"
+                        android:layout_margin="8dp"
+                        android:background="@drawable/jalebigoogle" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="100dp"
+                        android:textSize="10dp"
+                        android:layout_marginLeft="3dp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:text="Jilebi Fish(100kg to 240kg)" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="120dp"
+                        android:textSize="10dp"
+                        android:layout_marginLeft="5dp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:text="179.00/500g"
+                        android:drawableLeft="@drawable/ic_rupee22"/>
+
+
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+
+
+        </FrameLayout>
+
+
+    </androidx.core.widget.NestedScrollView>
+
+
+
+
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottomNavigationView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            app:itemIconTint="@color/black"
+            app:itemIconSize="20dp"
+            app:itemTextColor="@color/black"
+            app:menu="@menu/bottom_nav2" />
+
+
+
+
+
+
+</LinearLayout>

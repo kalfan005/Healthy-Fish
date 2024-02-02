@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+
+    <group
+        android:checkableBehavior="all">
+
+    <item
+        android:id="@+id/nav_login"
+        android:title="Login"
+        android:icon="@drawable/icons8login"/>
+    <item
+        android:id="@+id/nav_product"
+        android:title="All Products"
+        android:icon="@drawable/icons8product"/>
+    <item
+        android:id="@+id/nav_refer"
+        android:title="Refer and Earn"
+        android:icon="@drawable/icons8refer"/>
+    <item
+        android:id="@+id/nav_offer"
+        android:title="offers"
+        android:icon="@drawable/icons8offer"/>
+
+    <item
+        android:id="@+id/nav_recipes"
+        android:title="Recipes"
+        android:icon="@drawable/icons8cookbook50"/>
+    <item
+        android:id="@+id/nav_editpro"
+        android:title="Edit Profile"
+        android:icon="@drawable/icons8registration"/>
+    <item
+        android:id="@+id/nav_about"
+        android:title="About"
+        android:icon="@drawable/icons8about"/>
+    <item
+        android:id="@+id/nav_contact"
+        android:title="Contact"
+        android:icon="@drawable/icons8contact"/>
+
+    </group>
+</menu>

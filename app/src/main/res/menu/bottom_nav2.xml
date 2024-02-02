@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/sort"
+        android:title="Save"
+        android:icon="@drawable/ic_favourite__1_"/>
+
+    <item
+        android:id="@+id/cart"
+        android:title="Add to Cart"
+        android:icon="@drawable/carticon"/>
+
+    <item
+        android:id="@+id/buynow"
+        android:title="Buy Now"
+        android:icon="@drawable/icons8tags24"/>
+
+</menu>

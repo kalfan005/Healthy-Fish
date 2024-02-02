@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/design1"
+    tools:context=".Screen2.Registration">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="30dp"
+        android:drawableLeft="@drawable/baseline_west_24"
+        android:drawablePadding="20dp"
+        android:text="Sign Up"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="25dp"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:id="@+id/editTextfname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_margin="10dp"
+                android:hint="First Name"
+                android:textColor="@color/black"/>
+
+            <EditText
+                android:id="@+id/editTextlname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_margin="10dp"
+                android:hint="Last Name"
+                android:textColor="@color/black"/>
+
+            <EditText
+                android:id="@+id/editTextemail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:hint="Email"
+                android:layout_margin="10dp"
+                android:textColor="@color/black"/>
+
+            <EditText
+                android:id="@+id/editTextmobile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:hint="Mobile Number"
+                android:layout_margin="10dp"
+                android:inputType="text"
+                android:textColor="@color/black"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:background="#F4EFEF"/>
+
+
+            <EditText
+                android:id="@+id/editTextpassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:drawableRight="@drawable/baseline_remove_red_eye_24"
+                android:hint="Password"
+                android:inputType="numberPassword"/>
+
+            <EditText
+                android:id="@+id/editTexttype"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:hint="Type"
+                android:layout_margin="10dp"
+                android:inputType="text"
+                android:textColor="@color/black"/>
+
+            <EditText
+                android:id="@+id/editTextreferal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:hint="Referal code"
+                android:layout_margin="10dp"
+                android:inputType="text"
+                android:textColor="@color/black"/>
+
+
+            <Button
+                android:id="@+id/register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+               android:layout_margin="20dp"
+                android:text="Register"
+                android:textSize="20dp"
+                android:background="#FF5722"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

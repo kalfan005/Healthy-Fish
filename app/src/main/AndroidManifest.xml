@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HealthyFish"
+        tools:targetApi="31">
+        <activity
+            android:name=".Screen23.RecipesitemActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Screen6.Items.CategoryFishitem"
+            android:exported="false" />
+        <activity
+            android:name=".screen22.Recipes"
+            android:exported="false" />
+        <activity
+            android:name=".Screen21.Contact"
+            android:exported="false" />
+        <activity
+            android:name=".Screen19.AboutUs"
+            android:exported="false" />
+        <activity
+            android:name=".Screen18.ReferEarn"
+            android:exported="false" />
+        <activity
+            android:name=".Screen17.WalletActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Screen16.Orders"
+            android:exported="false" />
+        <activity
+            android:name=".Screen15.EditProfile"
+            android:exported="false" />
+        <activity
+            android:name=".Screen13.OrderPlaceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Screen13_2.PaymentConfirmation"
+            android:exported="false" />
+        <activity
+            android:name=".Screen13_1.Payment"
+            android:exported="false" />
+        <activity
+            android:name=".Screen12.AddAddress"
+            android:exported="false" />
+        <activity
+            android:name=".Screen11.DeliveryAddress"
+            android:exported="false" />
+        <activity
+            android:name=".Screen10.MyCart"
+            android:exported="false" />
+        <activity
+            android:name=".Screen9.SelectCut"
+            android:exported="false" />
+        <activity
+            android:name=".Screen8.Fishquantity"
+            android:exported="false" />
+        <activity
+            android:name=".Screen7.Freshfish"
+            android:exported="false" />
+        <activity
+            android:name=".Screen6.Home1"
+            android:exported="false" />
+        <activity
+            android:name=".Screen2.Registration"
+            android:exported="false" />
+        <activity
+            android:name=".Screen4.SecurityCode"
+            android:exported="false" />
+        <activity
+            android:name=".Screen3.Forgotpass"
+            android:exported="false" />
+        <activity
+            android:name=".Screen5.Changepass"
+            android:exported="false" />
+        <activity
+            android:name=".Screen1.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
